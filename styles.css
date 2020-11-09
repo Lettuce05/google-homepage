@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+/* nav styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav > div > ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+nav > div > ul > li {
+    margin-right: 10px;
+}
+
+nav > div > ul > li > a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: small;
+}
+
+nav > div > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+.nav_button {
+    padding: 10px;
+    background-color: #4285f4;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+}
+
+/* main styles */
+
+main > img {
+    height: 92px;
+    width: 272px;
+}
+
+main {
+    
+}
+
+/* footer styles */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+footer > div > ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+footer > div > ul > li {
+    margin-right: 10px;
+}
+
+footer > div > ul > li > a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 90%;
+}
+
+footer > div > ul > li > a:hover {
+    text-decoration: underline;
+}
